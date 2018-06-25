@@ -1,11 +1,11 @@
-## Animal is-a object (yes, sort of confusion) look at the ex
+## Animal is-a object (yes, sort of confusing) look at the ex
 class Animal(object):
     pass
 
 ## ??
 class Dog(Animal):
 
-    def __init__(self,name):
+    def __init__(self, name):
         ## ??
         self.name = name
 
@@ -23,7 +23,7 @@ class Person(object):
         ## ??
         self.name = name
 
-        ## Person has-a pet of some kind
+        ## Person has-a pet of some king
         self.pet = None
 
 ## ??
@@ -73,3 +73,4 @@ crouse = Salmon()
 
 ## ??
 harry = Halibut()
+
